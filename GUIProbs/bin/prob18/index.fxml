@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prob18.Controller">
+   <children>
+      <MenuBar prefHeight="0.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button fx:id="StarBtn" mnemonicParsing="false" text="Star" />
+               </graphic></Menu>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button fx:id="CloverBtn" mnemonicParsing="false" text="Clover" />
+               </graphic>
+            </Menu>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button fx:id="HeartBtn" mnemonicParsing="false" text="Heart" />
+               </graphic>
+            </Menu>
+        </menus>
+      </MenuBar>
+        <Canvas fx:id="canvas" height="600.0" width="600.0" />
+   </children>
+</VBox>
