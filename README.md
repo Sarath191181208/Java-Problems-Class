@@ -72,3 +72,10 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
     number
   - c. Calculate the factorial of number which is returned by task b above task.
     Note: For each task define the separate methods.
+
+  26. To achieve the parallel execution in multi-threaded environment, we have created
+      the 4 threads to perform the given task. The task is to take the string from the user,
+      return the maximum occurring character in that string, and then remove all the
+      occurrences of the maximum occurring character from string. Implement all given
+      task with multi-threaded environment with synchronization among all threads.
+      Note: design function for each task.
