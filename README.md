@@ -44,7 +44,7 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
 
 ### Assignment Problems
 
-- Questions on Generics
+- Questions on Generics:
 
   22. Create two classes called CompAEmp and CompBEmp extending Emp class. Create a
       generic class called MyEmployeeUtil, which defines utilities to perform employee
@@ -61,3 +61,14 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
   24. Bob want to search a particular number in available list of arranged numeric
       numbers. Will you help him to find a numeric number using java program with the
       concept of generic?
+
+- Questions on Thread:
+
+  25. Creates the 4 threads and achieve the synchronization among threads for following
+      tasks.
+
+  - a. It accepts the multi-digit number
+  - b. Performs the sum of digits of given number until it gets the single digit
+    number
+  - c. Calculate the factorial of number which is returned by task b above task.
+    Note: For each task define the separate methods.
