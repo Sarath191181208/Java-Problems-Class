@@ -36,4 +36,24 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
     Add a text field to display the result. Handle any possible exceptions like divide by zero.
 21. Write a JavaFX program that creates a menu.
 
-###
+### Digital Assignment
+
+1. Develop a java program to implement List interface by using stack class and linkedlist classes. (It should include all the methods of List interface).
+2. Develp a java program to implement Set interface by using TreeSet class and EnumSet class.
+3. Develp a java program to implement queue interface by using ArrayDeque class and LinkedList class and priority queue class.
+
+### Assignment Problems
+
+- Questions on Generics
+
+  22. Create two classes called CompAEmp and CompBEmp extending Emp class. Create a
+      generic class called MyEmployeeUtil, which defines utilities to perform employee
+      functions irrespective of which comapany emp belogns too. This class accepts
+      subclasses of Emp. Compare the salary of two employees using MyEmployeeUtil
+      class.
+
+  23. Create a class Complex which has real and imaginary values represents the
+      numeric values. The class has one parametrized constructor to initialize real and
+      imaginary part of complex number. The generic class Complex implements in-built
+      interface Comparable. Write the java program to find bigger complex number from
+      the pair of complex number using comparable interface.
