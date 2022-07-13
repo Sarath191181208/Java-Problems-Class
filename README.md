@@ -57,3 +57,7 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
       imaginary part of complex number. The generic class Complex implements in-built
       interface Comparable. Write the java program to find bigger complex number from
       the pair of complex number using comparable interface.
+
+  24. Bob want to search a particular number in available list of arranged numeric
+      numbers. Will you help him to find a numeric number using java program with the
+      concept of generic?
