@@ -27,23 +27,22 @@ public class Controller {
     public void initialize() {
         ctx = canvas.getGraphicsContext2D();
         ConfigBtns();
-
-        reset();
+        resetCanvas();
         drawShape(new Star());
 
     }
 
     final private void ConfigBtns() {
         StarBtn.setOnAction(e -> {
-            reset();
+            resetCanvas();
             drawShape(new Star());
         });
         CloverBtn.setOnAction(e -> {
-            reset();
+            resetCanvas();
             drawShape(new Clover());
         });
         HeartBtn.setOnAction(e -> {
-            reset();
+            resetCanvas();
             drawShape(new Heart());
         });
     }
@@ -53,7 +52,7 @@ public class Controller {
         ctx.fillRect(0, 0, canvas.getWidth(), canvas.getHeight());
     }
 
-    private void reset() {
+    private void resetCanvas() {
         ctx.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         fillBg();
     }

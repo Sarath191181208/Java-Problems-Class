@@ -10,18 +10,18 @@
    <children>
       <MenuBar prefHeight="0.0" prefWidth="600.0">
         <menus>
-          <Menu mnemonicParsing="false">
+          <Menu>
                <graphic>
-                  <Button fx:id="StarBtn" mnemonicParsing="false" text="Star" />
+                  <Button fx:id="StarBtn" text="Star" />
                </graphic></Menu>
-            <Menu mnemonicParsing="false">
+            <Menu>
                <graphic>
-                  <Button fx:id="CloverBtn" mnemonicParsing="false" text="Clover" />
+                  <Button fx:id="CloverBtn" text="Clover" />
                </graphic>
             </Menu>
-            <Menu mnemonicParsing="false">
+            <Menu>
                <graphic>
-                  <Button fx:id="HeartBtn" mnemonicParsing="false" text="Heart" />
+                  <Button fx:id="HeartBtn" text="Heart" />
                </graphic>
             </Menu>
         </menus>

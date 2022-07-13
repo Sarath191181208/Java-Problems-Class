@@ -21,21 +21,6 @@ public class LinkedListAssign {
         System.out.println("list2: " + list2);
         System.out.println("list3: " + list3);
 
-        // union
-        list1.addAll(list2);
-        System.out.println("list1 Union List2 -> list1: " + list1);
-
-        // intersection
-        list2.retainAll(list3);
-        System.out.println("list2 Int   ersection List3 -> list2: " + list2);
-
-        // difference
-        list2.removeAll(list3);
-        System.out.println("list2 Difference List3 -> list2: " + list2);
-
-        // subset
-        System.out.println("list1 is subset of list3: " + list1.containsAll(list3));
-
         // remove
         list3.remove("A");
         System.out.println("Remove A from list3 -> list3: " + list3);
