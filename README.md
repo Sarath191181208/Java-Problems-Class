@@ -67,11 +67,11 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
   25. Creates the 4 threads and achieve the synchronization among threads for following
       tasks.
 
-  - a. It accepts the multi-digit number
-  - b. Performs the sum of digits of given number until it gets the single digit
-    number
-  - c. Calculate the factorial of number which is returned by task b above task.
-    Note: For each task define the separate methods.
+      - It accepts the multi-digit number
+      - Performs the sum of digits of given number until it gets the single digit
+        number
+      - Calculate the factorial of number which is returned by task b above task.
+        Note: For each task define the separate methods.
 
   26. To achieve the parallel execution in multi-threaded environment, we have created
       the 4 threads to perform the given task. The task is to take the string from the user,
@@ -86,3 +86,12 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
       repeating the number-generating cycle. The Consumer consumes all integers from
       the CubbyHole (the exact same object into which the Producer put the integers in
       the first place) as quickly as they become available.
+
+  28. Consider the bank has 5 counters for serving the customers. And the bank serves
+      maximum of 100 tokens / day. There is one token vending machine which is
+      generating token continuously for each customer. When a customer arrives in bank
+      for some work, he /she needs to collect a token from the token vending machine
+      (The Producer). Now the customer needs to wait for some time to be served from
+      one of the 5 counters (The Consumers)
+
+  29.
