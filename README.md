@@ -79,3 +79,10 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
       occurrences of the maximum occurring character from string. Implement all given
       task with multi-threaded environment with synchronization among all threads.
       Note: design function for each task.
+
+  27. Implement the java program for the following scenario: Generate the multithreaded environment where the Producer generates an integer between 0 and 9
+      (inclusive), stores it in a CubbyHole object. To make the synchronization, Producer
+      waits for a random amount of time between 0 and 100 milliseconds before
+      repeating the number-generating cycle. The Consumer consumes all integers from
+      the CubbyHole (the exact same object into which the Producer put the integers in
+      the first place) as quickly as they become available.
