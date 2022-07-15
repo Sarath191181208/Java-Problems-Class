@@ -94,4 +94,8 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
       (The Producer). Now the customer needs to wait for some time to be served from
       one of the 5 counters (The Consumers)
 
-  29.
+  29. Automatic vending machine is installed for selling of snacks packet in VIT-AP. The
+      maximum size of this machine is 1000 packs at a time. If sells manager want to add
+      more items (more than 1000), it has to wait until there is space for packs
+      (Producer). Then there is no item in vending student has to wait until the sales
+      manager puts items into the machine (Consumer).

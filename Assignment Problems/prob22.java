@@ -3,7 +3,7 @@ public class prob22 {
         var meu = new MyEmployeeUtil<Emp>();
 
         var aEmp1 = new CompAEmp(100);
-        var aEmp2 = new CompAEmp(200);
+        var aEmp2 = new CompBEmp(200);
 
         System.out.println(meu.compare(aEmp1, aEmp2));
     }

@@ -27,7 +27,7 @@ class ComplexNum implements Comparable<ComplexNum> {
 
     @Override
     public String toString() {
-        return re + " " + im + "i";
+        return re + " + " + im + "i";
     }
 
     private Double clacDis() {

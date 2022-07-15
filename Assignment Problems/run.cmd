@@ -1,12 +1,13 @@
 @echo off
 
-set package=classProbs
-set file_name=EventHiiandlersExample
+@REM set package=classProbs
+set file_name=%1
 @REM set file_name=EventFiltersExample
 @REM set file_name=TreeViewExample
 
 
-set j_file=%package%.%file_name%
+@REM set j_file=%package%.%file_name%
+set j_file=%file_name%
 set java="C:\Program Files\Java\jdk-18\bin\java.exe"
 
 @REM defining the modules that need to be added
@@ -18,4 +19,4 @@ set arg_file_path=@C:\Users\ADMINI~1\AppData\Local\Temp\cp_7vdxn2t28fc5z2g1fh2ma
 set show_preview=--enable-preview -XX:+ShowCodeDetailsInExceptionMessages %arg_file_path%
 
 @REM compiling and running the file
-%java% %add_modules% %show_preview% %j_file%
+%java% %add_modules% %show_preview% --source 18 %j_file%
