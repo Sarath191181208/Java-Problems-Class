@@ -36,6 +36,12 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
     Add a text field to display the result. Handle any possible exceptions like divide by zero.
 21. Write a JavaFX program that creates a menu.
 
+- Assignment Problems
+
+31. Design a Java FX application for designing an application for taking a quiz online
+    which has at least one question and four radio buttons for choices or answers and
+    there should also be a button called submit to submit the answer?
+
 ### Digital Assignment
 
 1. Develop a java program to implement List interface by using stack class and linkedlist classes. (It should include all the methods of List interface).
