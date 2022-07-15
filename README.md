@@ -99,3 +99,12 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
       more items (more than 1000), it has to wait until there is space for packs
       (Producer). Then there is no item in vending student has to wait until the sales
       manager puts items into the machine (Consumer).
+
+  30. Consider the automatic parking slot of VIT-AP. In the institute parking slots we can
+      park maximum 200 vehicle at time. There is automated system which displays
+      parking place for each vehicle which are entering inside the campus of VIT-AP.
+      When vehicle enters inside the campus, it needs to check the display to get the free
+      slot for parking (The Producer). Vehicle has to be wait for some time to get the
+      parking slot if slot is completely filled.
+
+      > Didn't quite understand the flow should ask for confirmation of exec flow.
