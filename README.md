@@ -42,6 +42,15 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
     which has at least one question and four radio buttons for choices or answers and
     there should also be a button called submit to submit the answer?
 
+32. Develop a Java FX application which has flow layout, and which has three buttons
+    namely college, department, and name. When the college button is clicked display
+    “VIT-AP University” should be displayed on the window and when the department
+    button is clicked “SCOPE” should be displayed and when the name button is pressed
+    then your name should be displayed?
+
+33. Develop a Java FX application which looks like as shown below:
+    ![Problem 33 Image](imgs/Questions/33Q.pngs)
+
 ### Digital Assignment
 
 1. Develop a java program to implement List interface by using stack class and linkedlist classes. (It should include all the methods of List interface).
