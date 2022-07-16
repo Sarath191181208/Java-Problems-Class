@@ -49,6 +49,7 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
     then your name should be displayed?
 
 33. [problem 33](./GUIProbs/src/AssignmentProblems/prob33.java) Develop a Java FX application which looks like as shown below:
+
     ![Problem 33 Image](imgs/Questions/33Q.png)
 
 34. [problem 34](./GUIProbs/src/AssignmentProblems/prob34.java) Write a javaFX program to design the form below. Use RadioButton for gender,
@@ -56,6 +57,7 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
     for department (CSE, ECE,EEE,MECH) and Checkbox for programming skill (allow
     multiple select) and Button “Submit”. When the submit button is clicked it has to
     display all the Details.
+
     ![Problem 34 Image](imgs/Questions/34Q.png)
 
 ### Digital Assignment
