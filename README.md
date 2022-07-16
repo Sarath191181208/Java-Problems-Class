@@ -51,6 +51,13 @@ This is the solutions to the lab problems given in VIT-AP 2nd sem, Including som
 33. Develop a Java FX application which looks like as shown below:
     ![Problem 33 Image](imgs/Questions/33Q.pngs)
 
+34. Write a javaFX program to design the form below. Use RadioButton for gender,
+    Combo box for Education Qualification (BE, ME, PHD, BTECH,BSC) and ListView
+    for department (CSE, ECE,EEE,MECH) and Checkbox for programming skill (allow
+    multiple select) and Button “Submit”. When the submit button is clicked it has to
+    display all the Details.
+    ![Problem 34 Image](imgs/Questions/34Q.png)
+
 ### Digital Assignment
 
 1. Develop a java program to implement List interface by using stack class and linkedlist classes. (It should include all the methods of List interface).
